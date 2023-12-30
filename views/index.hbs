@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    {{!-- <h1>Web is hosting {{msg.sname}}</h1> --}}
+    <form action="/form" method="post">
+        <h1>Register  Page</h1>
+        <div>
+            <label for="">Name</label>
+            <input type="text" placeholder="name" name="empname" id="empname">
+        </div>
+
+        <div>
+            <label for="">Age</label>
+            <input type="number" placeholder="age" name="empage" id="empage">
+        </div>
+
+        <div>
+            <label for="">Email</label>
+            <input type="email" placeholder="email" name="empemail" id="empemail">
+        </div>
+
+        <div>
+            <label for="">Password</label>
+            <input type="password" placeholder="password" name="emppass" id="emppass">
+        </div>
+
+        <div>
+            <label for="">Profile</label>
+            <input type="file" placeholder="image" name="empimg" id="empimg" onkeyup='showImage($event)'> 
+        </div>
+
+        <div>
+            <a href="/login"><button type="submit">Submit</button></a>
+        </div>
+
+        <div>
+            <a href="/login">already have account</a>
+        </div>
+
+    
+    </form>
+
+   {{!-- <a href="/demo"> <button>Database</button></a> --}}
+   
+</body>
+
+</html>

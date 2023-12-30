@@ -1,0 +1,48 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    backdrop-filter: blur(18px);
+    width: 50%;
+    color: #fff;
+    
+   
+}
+
+form input{
+    border: none;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+form label{ 
+    margin-right:20px ;
+    
+}
+form button{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+form a{
+    color: #fff;
+}
+body{
+    background-image: url('/src/login_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
